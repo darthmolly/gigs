@@ -1,4 +1,4 @@
-class CreateBand < ActiveRecord::Migration
+class CreateBands < ActiveRecord::Migration
   def self.up
     create_table :bands do |t|
       t.string :name
